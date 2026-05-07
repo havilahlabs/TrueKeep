@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Truekeep",
+    "slug": "truekeep",
+    "scheme": "truekeep",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-notifications",
+      "expo-local-authentication",
+      "./plugins/withNudgeWidget"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.truekeep.app"
+    },
+    "android": {
+      "package": "com.truekeep.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#7B5EA7"
+      }
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#7B5EA7"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b450e53-cac2-4349-bd32-232a26cfa02c"
+      }
+    }
+  }
+}
