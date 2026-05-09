@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "havilah-labs",
     "name": "Truekeep",
     "slug": "truekeep",
     "scheme": "truekeep",
